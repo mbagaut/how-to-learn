@@ -27,6 +27,10 @@
       align-self: center;
   max-width: 730px;
   padding-left: 64px;
+
+  font-weight: bold;
+  font-size: 102px;
+  line-height: 96px;
 }
 
 .header__subtitle {
@@ -36,6 +40,8 @@
   z-index: 1;
   margin: 0;
   max-width: 388px;
+
+  line-height: 25px;
 }
 
 .header__link {
@@ -89,16 +95,6 @@
   background-image: url(../images/logo_place_footer.svg);
   background-repeat: no-repeat;
   height: 100%;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 102px;
-  line-height: 96px;
-}
-
-.subtitle {
-  line-height: 25px;
 }
 
 .description {
