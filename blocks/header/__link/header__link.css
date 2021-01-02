@@ -1,0 +1,11 @@
+.header__link {
+  text-decoration: none;
+}
+
+.header__link:link {
+  color: #2f80ed;
+}
+
+.header__link:active {
+  color: #3d31ed;
+}
