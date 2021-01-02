@@ -1,0 +1,18 @@
+.feynman__link {
+  position: absolute;
+  top: calc(50% - 51px / 2);
+  right: 0;
+  z-index: 1;
+  margin-right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  text-decoration: none;
+}
+
+.feynman__link:link {
+  color: #2f80ed;
+}
+
+.feynman__link:active {
+  color: #3d31ed;
+}
