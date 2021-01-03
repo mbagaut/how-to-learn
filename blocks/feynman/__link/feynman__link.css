@@ -1,9 +1,8 @@
 .feynman__link {
   position: absolute;
-  top: calc(50% - 51px / 2);
-  right: 0;
+  top: 49%;
+  right: 48px;
   z-index: 1;
-  margin-right: 48px;
   font-size: 36px;
   line-height: 51px;
   text-decoration: none;

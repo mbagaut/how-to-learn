@@ -1,8 +1,6 @@
 .feynman {
   position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  min-height: 870px;
+  min-height: 790px;
   margin-bottom: 100px;
   padding-top: 80px;
   background-color: #f2f2f2;
