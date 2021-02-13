@@ -2,6 +2,7 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+
   background-image: url(../../../images/logo_place_footer.svg);
   background-repeat: no-repeat;
 }

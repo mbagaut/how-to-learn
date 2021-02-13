@@ -5,6 +5,17 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+
   width: 90%;
+
   margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+  .footer__columns {
+    position: relative;
+
+    margin-top: 60px;
+    padding: 0 10px;
+  }
 }

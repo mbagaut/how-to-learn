@@ -4,5 +4,13 @@
   right: 0;
   width: 568px;
   height: 568px;
+
   background-color: #2f80ed;
+}
+
+@media (max-width: 1100px) {
+  .header__square-pic {
+    width: calc(68px + 45.45vw);
+    height: calc(68px + 45.45vw);
+  }
 }

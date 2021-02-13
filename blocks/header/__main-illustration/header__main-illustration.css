@@ -5,3 +5,10 @@
   width: 765px;
   height: 608px;
 }
+
+@media (max-width: 1100px) {
+  .header__main-illustration {
+    width: 69.5vw;
+    height: 55vw;
+  }
+}

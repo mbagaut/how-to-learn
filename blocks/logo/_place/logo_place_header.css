@@ -3,6 +3,13 @@
   top: 30px;
   left: 64px;
   height: 32px;
+
   background-image: url(../../../images/logo_place_header.svg);
 }
 
+@media (max-width: 1100px) {
+  .logo_place_header {
+    left: calc(5.8vw);
+    z-index: 1;
+  }
+}

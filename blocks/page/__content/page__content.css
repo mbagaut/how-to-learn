@@ -1,3 +1,9 @@
 .page__content {
   margin-bottom: 217px;
 }
+
+@media (max-width:1100px) {
+  .page__content {
+    margin-bottom: 19.72vw;
+  }
+}

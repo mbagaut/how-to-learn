@@ -2,5 +2,18 @@
   width: 200px;
   margin-top: 80px;
   margin-right: 0;
+
   color: white;
+}
+
+@media (max-width:619px) {
+  .table__cell_theme_dark {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width:420px) {
+  .table__cell_theme_dark {
+    width: 70vw;
+  }
 }

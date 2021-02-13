@@ -4,9 +4,26 @@
   right: -210px;
   width: 877px;
   height: 877px;
+
   background-image: url(../../../images/kaufman-triangle.svg);
   background-size: contain;
   -webkit-transform-origin: 58% 43%;
       -ms-transform-origin: 58% 43%;
           transform-origin: 58% 43%;
+}
+
+@media (max-width:1100px) {
+  .kaufman__triangle {
+    width: 79.72vw;
+    height: 79.72vw;
+    right: -19.09vw;
+  }
+}
+
+@media (max-width:420px) {
+  .kaufman__triangle {
+    top: 30vw;
+    width: 400px;
+    height: 400px;
+  }
 }

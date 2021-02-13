@@ -5,3 +5,75 @@
   overflow: hidden;
   background-color: #1f1f1f;
 }
+
+@media (max-width:1100px) {
+  .kaufman {
+    padding: 8.18vw 0;
+    margin-bottom: 9.09vw;
+  }
+}
+
+@media (max-width:819px) {
+  .kaufman::after {
+    content: "";
+    position: absolute;
+    bottom: -30vw;
+    left: -30vw;
+    width: 79.72vw;
+    height: 79.72vw;
+    background-image: url(../../images/kaufman-triangle.svg);
+    background-size: cover;
+
+    -webkit-animation-name: rotation;
+    animation-name: rotation;
+    -webkit-animation-duration: 30s;
+    animation-duration: 35s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+}
+
+@media (max-width:420px) {
+  .kaufman::before {
+    content: "";
+    position: absolute;
+    bottom: 100vw;
+    left: -100vw;
+    width: 600px;
+    height: 600px;
+    background-image: url(../../images/kaufman-triangle.svg);
+    background-size: cover;
+
+    -webkit-animation-name: rotation;
+    animation-name: rotation;
+    -webkit-animation-duration: 30s;
+    animation-duration: 35s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+  }
+
+  .kaufman::after {
+    content: "";
+    position: absolute;
+    bottom: -30vw;
+    left: 40vw;
+    width: 400px;
+    height: 400px;
+    background-image: url(../../images/kaufman-triangle.svg);
+    background-size: cover;
+
+    -webkit-animation-name: rotation;
+    animation-name: rotation;
+    -webkit-animation-duration: 30s;
+    animation-duration: 25s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+}

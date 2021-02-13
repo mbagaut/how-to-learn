@@ -1,3 +1,9 @@
 .digits {
   margin-bottom: 100px;
 }
+
+@media (max-width:1100px) {
+  .digits {
+    margin-bottom: 9.09vw;
+  }
+}

@@ -1,4 +1,9 @@
 .two-columns__main-text {
-  min-width: 784px;
   max-width: 80%;
+}
+
+@media (max-width:560px) {
+  .two-columns__main-text {
+    max-width: 100%;
+  }
 }

@@ -1,8 +1,16 @@
 .section-title {
-  max-width: 60%;
   margin: 0 auto;
   margin-bottom: 20px;
+
   font-weight: bold;
   font-size: 60px;
   text-align: center;
+}
+
+@media (max-width:1100px) {
+  .section-title {
+    font-size: calc(28px + 2.9vw);
+
+    padding: 0 10px;
+  }
 }

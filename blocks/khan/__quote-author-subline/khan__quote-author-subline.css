@@ -1,4 +1,11 @@
 .khan__quote-author-subline {
   margin: 0 0 68px 0;
+
   font-size: 24px;
+}
+
+@media (max-width:1100px) {
+  .khan__quote-author-subline {
+    margin-bottom: 6.18vw;
+  }
 }
